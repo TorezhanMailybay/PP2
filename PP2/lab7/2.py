@@ -17,10 +17,10 @@ Button = pygame.Surface((173, 173))
 SONG_END = pygame.USEREVENT + 1
 
 pygame.mixer.music.set_endevent(SONG_END)
-pygame.mixer.music.load('music/Lady Gaga - Judas.mp3')
+pygame.mixer.music.load('music/Arctic_Monkeys_-_505_59891387.mp3')
 pygame.mixer.music.play()
 
-_songs = ['music/lab7/music/Arctic_Monkeys_-_505_59891387.mp3', 'music/lab7/music/Klava_Koka_MORGENSHTERN_-_Mne_pokh_67286916.mp3']
+_songs = ['music/Arctic_Monkeys_-_505_59891387.mp3', 'music/Klava_Koka_MORGENSHTERN_-_Mne_pokh_67286916.mp3']
 
 _currently_playing_song = None
 
